@@ -1,0 +1,51 @@
+body, html, div,u,strong, img, label, b,p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+u{
+	text-decoration: none;
+}
+body {
+	font-size: 14px;
+	color: #666;
+	font-family: "微软雅黑";
+}
+
+h1, h2, h3, h4, h5,b, h6,strong {
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.center {
+	width: 1200px;
+	margin: 0 auto;
+}
